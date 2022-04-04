@@ -1,0 +1,192 @@
+body {
+    background-color: midnightblue;
+    font-family: Helvetica Neue, sans-serif;
+    color: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {    
+    background-image: url('images/ety.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    padding: 10px; 
+}
+
+
+
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+
+header .mobile {
+    display: none;
+}
+
+header .logo a {
+    background-image: url('images/ety.jpg');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -999999px;
+    top: -30px;
+    width: 300px;
+    
+}
+
+section {
+    background-color: floralwhite;
+    color: darkblue;
+    padding: 20px;
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+section div {
+    background-color: antiquewhite;
+    margin: 20px 40px 10px 50px;
+    text-align: center;
+       
+}
+
+h1 {
+    padding: 20px;
+    margin: 20px 40px 10px 50px;
+    
+}
+/*
+h4 {
+    font-weight: 30;
+    align-content:space-between;
+    margin-top: 50px;
+    
+}
+*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav il {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 715px) {
+    header{
+        height: 250px;
+        background-position: 0 -30px; 
+    }
+    
+    header .mobile {
+        display:inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    header{
+        height: 200px;
+        background-position: 0 -0px; 
+    }
+
+}
+
+.features {
+    background: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img {
+    border: 1px solid white
+    width: 200px;
+    box-shadow: gray 0 0 5px;
+    border-radius: 50%;
+}
+
+/*
+@media screen and (max-width: 715px) {
+    features {
+        display:block;
+    }
+}
+*/
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li:first-child {
+    background-color: none;
+}
+
+li:second-child:hover {
+    background-color: brown;
+}
+
+div {
+    background-color: red;
+    margin: auto,
+    display: inline-block;    
+    width: 100px;
+    height: 25px;
+}
+
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 20px 40px 10px 50px;
+    
+}
+
+
+
+
+
+
+
+
+
